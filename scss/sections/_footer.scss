@@ -1,0 +1,21 @@
+.footer {
+    padding: 112px 0px 59px 0px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__img {
+        width: 150px;
+    }
+
+    &__copywright {
+        color: $copywright;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+    }
+}
